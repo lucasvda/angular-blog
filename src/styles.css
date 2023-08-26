@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Raleway:wght@400;700;900&family=Roboto:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+	list-style: none;
+	text-decoration: none;
+	font-family: Oswald;
+}
+body {
+	max-width: 1140px;
+  margin: auto;
+}

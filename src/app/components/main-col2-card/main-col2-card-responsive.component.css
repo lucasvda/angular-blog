@@ -1,0 +1,17 @@
+@media (max-width: 950px) {
+	.main-col2-card-conteiner {
+		flex-direction: column-reverse;
+		gap: 5px;
+	}
+	.main-col2-card-image {
+		margin-bottom: 20px;
+	}
+	.main-col2-card-info {
+		gap: 5px;
+	}
+}
+@media (max-width: 800px) {
+	.main-col2-card-conteiner {
+		display: none;
+	}
+}

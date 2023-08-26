@@ -1,0 +1,15 @@
+.more-info-conteiner {
+	max-width: 1440px;
+	max-height: 670px;
+	background-color: #c9c9c9;
+	display: flex;
+}
+.more-info-col1-conteiner {
+	max-width: 320px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.more-info-col1-conteiner > img {
+	width: 100%;
+}

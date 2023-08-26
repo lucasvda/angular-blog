@@ -1,0 +1,10 @@
+@media (max-width: 640px) {
+	.main-col1-conteiner {
+		flex-direction: column-reverse;
+		max-width: 350px;
+		margin: auto;
+	}
+	.main-col1-card-info {
+		max-width: 350px;
+	}
+}
