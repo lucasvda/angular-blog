@@ -8,6 +8,7 @@
 .content-notice > h1 {
 	font-size: 4rem;
 	font-weight: 600;
+	text-transform: uppercase;
 }
 .content-notice > p {
 	font-size: 1.5rem;

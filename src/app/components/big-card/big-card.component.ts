@@ -6,7 +6,12 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./big-card.component.css']
 })
 export class BigCardComponent {
+
 @Input()
-photoCover:string = "assets/images/spiderman-big-card.jpg"
-altText:string = "Spider-Man"
+id:string = "0"
+@Input()
+photoCover:string = ""
+@Input()
+altText:string = ""
+
 }
