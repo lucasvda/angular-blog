@@ -1,0 +1,32 @@
+.more-info-col3-card {
+	display: flex;
+	gap: 20px;
+}
+.more-info-col3-card-image {
+	max-width: 100px;
+	max-height: 100px;
+}
+.more-info-col3-card-image > img {
+	width: 100%;
+}
+.more-info-col3-card-info {
+	max-width: 260px;
+	max-height: 100px;
+	display: flex;
+	flex-direction: column;
+}
+.more-info-col3-card-info > h1 {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+.more-info-col3-card-info > p {
+	font-size: .75rem;
+	font-weight: 300;
+	font-family: Roboto;
+	line-height: 1.12rem;
+
+	display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}

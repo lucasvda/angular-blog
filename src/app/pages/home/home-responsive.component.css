@@ -1,0 +1,5 @@
+@media (max-width: 680px) {
+	.home-conteiner {
+		grid-template-rows: repeat(4, auto);
+	}
+}

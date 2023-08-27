@@ -1,33 +1,21 @@
-.main-col2-card-conteiner {
-	display: flex;
-	gap: 20px;
-}
-.main-col2-card-image {
-	max-width: 160px;
-}
-.main-col2-card-image > img {
-	width: 100%;
-}
-.main-col2-card-info {
-	max-width: 270px;
-	max-height: 140px;
+.more-info-col2-card {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
 	align-items: flex-start;
+	gap: 10px;
 }
-.main-col2-card-info > h2 {
+.more-info-col2-card > h2 {
 	font-size: .75rem;
 	font-weight: 400;
 	background-color: #e41b23;
 	color: #ffffff;
 	padding: 1px 15px;
 }
-.main-col2-card-info > h1 {
+.more-info-col2-card > h1 {
 	font-size: 1.5rem;
 	font-weight: 600;
 }
-.main-col2-card-info > p {
+.more-info-col2-card > p {
 	font-size: .75rem;
 	font-weight: 300;
 	font-family: Roboto;
@@ -38,4 +26,3 @@
   overflow: hidden;
   -webkit-box-orient: vertical;
 }
-

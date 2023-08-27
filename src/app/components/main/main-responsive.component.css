@@ -1,3 +1,8 @@
+@media (max-width: 800px) {
+	.main-conteiner {
+		justify-content: center;
+	}
+}
 @media (max-width: 640px) {
 	.main-conteiner {
 		flex-direction: column;

@@ -1,8 +1,7 @@
 .big-card-conteiner {
 	max-width: 1140px;
-	max-height: 360px;
 	text-align: center;
-	margin: 20px auto 0px auto;
+	margin: auto;
 }
 .big-card-conteiner > img {
 	width: 100%;

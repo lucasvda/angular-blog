@@ -1,0 +1,19 @@
+@media (max-width: 1110px) {
+	.more-info-col3-content {
+		grid-template-columns: 1fr;
+	}
+}
+@media (max-width: 850px) {
+	.more-info-conteiner {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.more-info-col3-conteiner {
+		margin-top: 0px;
+	}
+}
+@media (max-width: 559px) {
+	.more-info-col2-conteiner {
+		margin-top: 0px;
+	}
+}

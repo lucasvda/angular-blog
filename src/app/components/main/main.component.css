@@ -1,8 +1,6 @@
 .main-conteiner {
 	display: flex;
 	justify-content: space-between;
-	width: auto;
-	margin-top: 40px;
 	max-width: 1140px;
-	max-height: 300px;
+	margin: auto;
 }

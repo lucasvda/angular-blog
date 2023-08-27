@@ -11,9 +11,12 @@ import { MainComponent } from './components/main/main.component';
 import { MainCol1Component } from './components/main-col1/main-col1.component';
 import { MainCol2CardComponent } from './components/main-col2-card/main-col2-card.component';
 import { MoreInfoComponent } from './components/more-info/more-info.component';
+import { MoreInfoCol2CardComponent } from './components/more-info-col2-card/more-info-col2-card.component';
+import { MoreInfoCol3CardComponent } from './components/more-info-col3-card/more-info-col3-card.component';
+import { InterviewComponent } from './components/interview/interview.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, LogoBarComponent, MenuBarComponent, BigCardComponent, MainComponent, MainCol1Component, MainCol2CardComponent, MoreInfoComponent],
+  declarations: [AppComponent, HomeComponent, LogoBarComponent, MenuBarComponent, BigCardComponent, MainComponent, MainCol1Component, MainCol2CardComponent, MoreInfoComponent, MoreInfoCol2CardComponent, MoreInfoCol3CardComponent, InterviewComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
