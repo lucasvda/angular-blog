@@ -13,4 +13,8 @@
 	padding: 10px;
 	white-space: nowrap;
 	font-weight: 600;
+	border-bottom: 2px solid #FFFFFF;
+}
+.menu-bar-flex-item:hover {
+	border-bottom: 2px solid #E41B23;
 }

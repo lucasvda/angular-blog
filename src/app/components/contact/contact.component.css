@@ -1,0 +1,35 @@
+.contact-conteiner {
+	background-color: #E0E0E0;
+	background-size: 1vw;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	gap: 80px;
+}
+.contact-col1-conteiner {
+	max-width: 460px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.invitation-message {
+	margin: 95px auto;
+	font-weight: 600;
+	color: #000000;
+}
+.rights {
+	margin-bottom: 20px;
+	font-weight: 600;
+	color: #000000;
+}
+.contact-col2-conteiner {
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 28px;
+}
+.contact-col2-conteiner > a {
+	font-weight: 600;
+	color: #000000;
+}

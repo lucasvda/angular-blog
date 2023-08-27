@@ -1,6 +1,7 @@
 .main-col2-card-conteiner {
 	display: flex;
 	gap: 20px;
+	margin-bottom: 20px;
 }
 .main-col2-card-image {
 	max-width: 160px;

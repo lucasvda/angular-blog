@@ -14,9 +14,11 @@ import { MoreInfoComponent } from './components/more-info/more-info.component';
 import { MoreInfoCol2CardComponent } from './components/more-info-col2-card/more-info-col2-card.component';
 import { MoreInfoCol3CardComponent } from './components/more-info-col3-card/more-info-col3-card.component';
 import { InterviewComponent } from './components/interview/interview.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, LogoBarComponent, MenuBarComponent, BigCardComponent, MainComponent, MainCol1Component, MainCol2CardComponent, MoreInfoComponent, MoreInfoCol2CardComponent, MoreInfoCol3CardComponent, InterviewComponent],
+  declarations: [AppComponent, HomeComponent, LogoBarComponent, MenuBarComponent, BigCardComponent, MainComponent, MainCol1Component, MainCol2CardComponent, MoreInfoComponent, MoreInfoCol2CardComponent, MoreInfoCol3CardComponent, InterviewComponent, ContactComponent, ContentComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

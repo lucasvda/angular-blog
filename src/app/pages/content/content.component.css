@@ -1,0 +1,32 @@
+.content-notice {
+	max-width: 1140px;
+	margin: 20px auto 40px auto;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.content-notice > h1 {
+	font-size: 4rem;
+	font-weight: 600;
+}
+.content-notice > p {
+	font-size: 1.5rem;
+	font-weight: 400;
+	font-family: Roboto;
+	line-height: 2.25rem;
+}
+.content-image {
+	max-width: 1140px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	align-items: flex-start;
+}
+.content-image > h2 {
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-bottom: 5px;
+	background-color: #E41B23;
+	color: #FFFFFF;
+	padding: 1px 20px;
+}
