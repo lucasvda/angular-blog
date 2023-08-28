@@ -9,8 +9,8 @@ import { dataFake } from 'src/app/data/dataFake'
 })
 export class ContentComponent {
 private id:string | null= ""
-photo:string = ""
-photoAlt:string = ""
+photo:string= ""
+photoAlt:string= ""
 subject:string = ""
 title:string = ""
 description:string = ""

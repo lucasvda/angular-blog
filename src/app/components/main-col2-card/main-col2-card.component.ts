@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-main-col2-card',
@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class MainCol2CardComponent {
 
+	@Input()
+	photoCover:string = ""
+	@Input()
+	altText:string = ""
+	@Input()
+	subject:string = ""
+	@Input()
+	title:string = ""
+	@Input()
+	description:string = ""
 }

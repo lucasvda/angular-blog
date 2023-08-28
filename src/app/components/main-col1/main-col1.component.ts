@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-main-col1',
@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class MainCol1Component {
 
+@Input()
+photoCover:string = ""
+@Input()
+altText:string = ""
+@Input()
+subject:string = ""
+@Input()
+title:string = ""
+@Input()
+description:string = ""
 }
+
+

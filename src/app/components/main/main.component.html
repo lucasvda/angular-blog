@@ -1,9 +1,9 @@
-<div class="main-conteiner">
+<div class="main-conteiner" id="movie">
 	<div class="main-col1-conteiner">
-		<app-main-col1></app-main-col1>
+		<a [routerLink]="['content', idPagina1]"><app-main-col1 photoCover="{{ itemValue[0][0] }}" altText="{{ itemValue[0][1] }}" subject="{{ itemValue[0][2] }}" title="{{ itemValue[0][3]}}" description="{{ itemValue[0][4] }}"></app-main-col1></a>
 	</div>
 	<div class="main-col2-conteiner">
-		<app-main-col2-card></app-main-col2-card>
-		<app-main-col2-card></app-main-col2-card>
+		<a [routerLink]="['content', idPagina2]"><app-main-col2-card photoCover="{{ itemValue[1][0] }}" altText="{{ itemValue[1][1] }}" subject="{{ itemValue[1][2] }}" title="{{ itemValue[1][3]}}" description="{{ itemValue[1][4] }}"></app-main-col2-card></a>
+		<a [routerLink]="['content', idPagina3]"><app-main-col2-card photoCover="{{ itemValue[2][0] }}" altText="{{ itemValue[2][1] }}" subject="{{ itemValue[2][2] }}" title="{{ itemValue[2][3]}}" description="{{ itemValue[2][4] }}"></app-main-col2-card></a>
 	</div>
 </div>

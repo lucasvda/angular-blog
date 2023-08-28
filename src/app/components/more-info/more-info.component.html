@@ -1,28 +1,30 @@
 <div class="more-info-conteiner">
-	<div class="more-info-col1-conteiner">
-		<h1>PAGE TITLE</h1>
-		<div class="more-info-col1-card">
-			<img src="assets/images/avengers-card.jpg" alt="">
+	<a [routerLink]="['content', idPagina4]">
+		<div class="more-info-col1-conteiner">
+			<h1 id="news">NOTÍCIAS</h1>
+			<div class="more-info-col1-card">
+				<img src="{{ itemValue[0][0] }}" alt="{{ itemValue[0][1] }}">
+			</div>
+			<h2>{{ itemValue[0][2] }}</h2>
+			<h3>{{ itemValue[0][3] }}</h3>
 		</div>
-		<h2>SUBTITLE</h2>
-		<h3>SUBTITLE SUBTITLE SUBTITLE SUBTITLE SUBTITLE SUBTITLE SUBTITLE SUBTITLE SUBTITLE </h3>
-	</div>
+	</a>
 	<div class="more-info-col2-conteiner">
-		<app-more-info-col2-card></app-more-info-col2-card>
-		<app-more-info-col2-card></app-more-info-col2-card>
-		<app-more-info-col2-card></app-more-info-col2-card>
+		<a [routerLink]="['content', idPagina5]"><app-more-info-col2-card photoCover="{{ itemValue[1][0] }}" altText="{{ itemValue[1][1] }}" subject="{{ itemValue[1][2] }}" title="{{ itemValue[1][3] }}" description="{{ itemValue[1][4] }}"></app-more-info-col2-card></a>
+		<a [routerLink]="['content', idPagina6]"><app-more-info-col2-card photoCover="{{ itemValue[2][0] }}" altText="{{ itemValue[2][1] }}" subject="{{ itemValue[2][2] }}" title="{{ itemValue[2][3] }}" description="{{ itemValue[2][4] }}"></app-more-info-col2-card></a>
+		<a [routerLink]="['content', idPagina7]"><app-more-info-col2-card photoCover="{{ itemValue[3][0] }}" altText="{{ itemValue[3][1] }}" subject="{{ itemValue[3][2] }}" title="{{ itemValue[3][3] }}" description="{{ itemValue[3][4] }}"></app-more-info-col2-card></a>
 	</div>
 	<div class="more-info-col3-conteiner">
-		<h1>PAGE TITLE</h1>
+		<h1 id="char">PERSONAGENS</h1>
 		<div class="more-info-col3-content">
-			<app-more-info-col3-card></app-more-info-col3-card>
-			<app-more-info-col3-card></app-more-info-col3-card>
-			<app-more-info-col3-card></app-more-info-col3-card>
-			<app-more-info-col3-card></app-more-info-col3-card>
-			<app-more-info-col3-card></app-more-info-col3-card>
-			<app-more-info-col3-card></app-more-info-col3-card>
-			<app-more-info-col3-card></app-more-info-col3-card>
-			<app-more-info-col3-card></app-more-info-col3-card>
+			<a [routerLink]="['content', idPagina8]"><app-more-info-col3-card photoCover="{{ itemValue[4][0] }}" altText="{{ itemValue[4][1] }}" subject="{{ itemValue[4][2] }}" title="{{ itemValue[4][3] }}" description="{{ itemValue[4][4] }}"></app-more-info-col3-card></a>
+			<a [routerLink]="['content', idPagina9]"><app-more-info-col3-card photoCover="{{ itemValue[5][0] }}" altText="{{ itemValue[5][1] }}" subject="{{ itemValue[5][2] }}" title="{{ itemValue[5][3] }}" description="{{ itemValue[5][4] }}"></app-more-info-col3-card></a>
+			<a [routerLink]="['content', idPagina10]"><app-more-info-col3-card photoCover="{{ itemValue[6][0] }}" altText="{{ itemValue[6][1] }}" subject="{{ itemValue[6][2] }}" title="{{ itemValue[6][3] }}" description="{{ itemValue[6][4] }}"></app-more-info-col3-card></a>
+			<a [routerLink]="['content', idPagina11]"><app-more-info-col3-card photoCover="{{ itemValue[7][0] }}" altText="{{ itemValue[7][1] }}" subject="{{ itemValue[7][2] }}" title="{{ itemValue[7][3] }}" description="{{ itemValue[7][4] }}"></app-more-info-col3-card></a>
+			<a [routerLink]="['content', idPagina12]"><app-more-info-col3-card photoCover="{{ itemValue[8][0] }}" altText="{{ itemValue[8][1] }}" subject="{{ itemValue[8][2] }}" title="{{ itemValue[8][3] }}" description="{{ itemValue[8][4] }}"></app-more-info-col3-card></a>
+			<a [routerLink]="['content', idPagina13]"><app-more-info-col3-card photoCover="{{ itemValue[9][0] }}" altText="{{ itemValue[9][1] }}" subject="{{ itemValue[9][2] }}" title="{{ itemValue[9][3] }}" description="{{ itemValue[9][4] }}"></app-more-info-col3-card></a>
+			<a [routerLink]="['content', idPagina14]"><app-more-info-col3-card photoCover="{{ itemValue[10][0] }}" altText="{{ itemValue[10][1] }}" subject="{{ itemValue[10][2] }}" title="{{ itemValue[10][3] }}" description="{{ itemValue[10][4] }}"></app-more-info-col3-card></a>
+			<a [routerLink]="['content', idPagina15]"><app-more-info-col3-card photoCover="{{ itemValue[11][0] }}" altText="{{ itemValue[11][1] }}" subject="{{ itemValue[11][2] }}" title="{{ itemValue[11][3] }}" description="{{ itemValue[11][4] }}"></app-more-info-col3-card></a>
 		</div>
 	</div>
 </div>

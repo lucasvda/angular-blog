@@ -2,8 +2,20 @@
 	max-width: 1140px;
 	text-align: center;
 	margin: auto;
+	display: flex;
+	flex-direction: column;
+  text-align: left;
 }
 .big-card-conteiner > a > img {
 	width: 100%;
+	display: block;
+}
+.big-card-conteiner > a > h2 {
+	font-size: 1rem;
+	font-weight: 400;
+	background-color: #E41B23;
+	color: #FFFFFF;
+	padding: 1px 15px;
+	display: inline-block;
 }
 

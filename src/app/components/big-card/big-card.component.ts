@@ -8,10 +8,12 @@ import { Component, Input } from '@angular/core';
 export class BigCardComponent {
 
 @Input()
-id:string = "0"
+id:string = "1"
 @Input()
 photoCover:string = ""
 @Input()
 altText:string = ""
+@Input()
+subject:string = ""
 
 }

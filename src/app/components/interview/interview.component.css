@@ -1,6 +1,7 @@
 .interview-conteiner {
 	max-width: 1140px;
 	display: flex;
+	gap: 40px;
 	margin: auto;
 }
 .interview-col1-conteiner {
@@ -27,6 +28,9 @@
 .interview-col1-conteiner > h1 {
 	font-family: 'Permanent Marker';
 	line-height: 3rem;
+}
+.interview-col2-conteiner {
+	min-width: 570px;
 }
 .interview-col2-conteiner > img {
 	width: 100%;

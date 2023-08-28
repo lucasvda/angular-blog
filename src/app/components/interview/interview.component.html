@@ -1,9 +1,9 @@
-<div class="interview-conteiner">
-	<div class="interview-col1-conteiner">
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati vel quas iste aliquam alias nisi, impedit maiores ex itaque, magni soluta delectus beatae error exercitationem, ipsam fugiat non similique?</p>
-		<h1>HULK</h1>
+<a [routerLink]="['content', idPagina16]"><div class="interview-conteiner">
+	<div class="interview-col1-conteiner" id="interview">
+		<p>{{ description }}</p>
+		<h1>{{ title }}</h1>
 	</div>
 	<div class="interview-col2-conteiner">
-		<img src="assets/images/hulk-card.jpg" alt="Hulk">
+		<img src="{{ photo }}" alt="{{ photoAlt }}">
 	</div>
-</div>
+</div></a>

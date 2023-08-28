@@ -39,4 +39,7 @@
   overflow: hidden;
   -webkit-box-orient: vertical;
 }
+a {
+	color: #000000;
+}
 
