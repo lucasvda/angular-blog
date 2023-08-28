@@ -1,27 +1,40 @@
-# AngularBlog
+# Marvel Blog - Desafio de Projeto DIO
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+Esse projeto foi desenvolvido com [Angular CLI](https://github.com/angular/angular-cli) versão 16.2.0.
+## Etapas de desenvolvimento do Marvel Blog com Angular
 
-## Development server
+ - Buscar Referências
+ - Criar Wireframe no Figma
+ - Codar o projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Buscar Referências
 
-## Code scaffolding
+A primeira etapa do projeto foi buscar referências no Dribbble de um blog que fosse diferente do blog do professor.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+![Referência](https://cdn.dribbble.com/userupload/7760304/file/original-96d871577ed88186147dde8392e1577b.jpg?resize=1024x683&vertical=center)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Criar Wireframe no Figma
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+A sugunda etapa foi desenhar o projeto com todos os components, seus espaçamentos e algumas estilizações.
 
-## Running end-to-end tests
+## Wireframe com a imagem de referência
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![Wireframe no Figma com a imagem de referência](https://github.com/lucasvda/angular-blog/blob/main/project-images/wireframe-idea.png?raw=true)
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Wireframe
+
+![Wireframe](https://github.com/lucasvda/angular-blog/blob/main/project-images/wireframe.png?raw=true)
+
+## Codar o projeto
+
+Já na terceira etapa foi codar o projeto, comecei criando todos os components, estilizei eles já com responsividade e depois fiz a parte de inteligência buscando os dados em uma base de dados fake que criei, com informações fakes geradas com ChatGPT, além de criar as rotas para uma nova página com todas as informações dos respectivos links.
+## Projeto concluído
+
+![Header](https://github.com/lucasvda/angular-blog/blob/main/project-images/marvel-blog.png?raw=true)
+
+![Main](https://github.com/lucasvda/angular-blog/blob/main/project-images/marvel-blog-2.png?raw=true)
+
+![Footer](https://github.com/lucasvda/angular-blog/blob/main/project-images/marvel-blog-3.png?raw=true)
