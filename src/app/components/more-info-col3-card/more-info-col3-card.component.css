@@ -13,10 +13,12 @@
 	max-height: 100px;
 	display: flex;
 	flex-direction: column;
+	gap: 10px;
 }
 .more-info-col3-card-info > h1 {
 	font-size: 1.5rem;
 	font-weight: 600;
+	line-height: 1.6rem;
 }
 .more-info-col3-card-info > p {
 	font-size: .75rem;
